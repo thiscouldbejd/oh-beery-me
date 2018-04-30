@@ -1,0 +1,49 @@
+# Global
+safe:									true
+exclude:							[TODO.md, Gemfile, Gemfile.lock]
+include:							[_pages, _extras]
+timezone:							Europe/London
+
+# Dependencies
+markdown:							kramdown
+
+# Styling
+sass:
+  sass_dir:						_sass
+  style:							compressed
+
+# Compression
+compress_html:
+  comments:						all
+  clippings:					all
+  endings:            all
+  artifacts:          ["/* */ ", "/* */", "/*jshint ignore:start*/", "/*jshint ignore:end*/"]
+  ignore:
+    envs:             [debug]
+
+# Permalinks
+permalink:						pretty
+
+# Setup
+title:								""
+brand:                
+byline:								""
+  
+description:					""
+url:									https://oh.beery.me
+baseurl:							/
+author:
+  name:								
+  url:								
+
+# Custom variables
+launched:							"2018"
+debug:                "debug"
+performance:          "perf"
+compress:             "compress"
+array:                []
+
+# Extras
+analytics:
+  id:                 "UA-53673057-13"
+  scroll:							true
